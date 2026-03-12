@@ -1,0 +1,67 @@
+<!-- 시간표 만들기 실습 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 초창기에는 구조적으로 잡는데에 테이블을 사용했지만, 현재는 CSS를 사용하여 더 깔끔하고 나은 구조를 만들 수 있음 -->
+   <!-- 추후 할 때 border 같은 경우는 스타일로  -->
+  <table border="1">
+    <caption>시간표</caption>
+    <thead>
+      <tr>
+        <th></th>
+        <th>월</th>
+        <th>화</th>
+        <th>수</th>
+        <th>목</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <th>9:00</th>
+      <td></td>
+      <td rowspan="2">DS</td>
+      <td></td>
+      <td rowspan="2">OS</td>
+    </tr>
+    <tr>
+      <th>10:00</th>
+      <!-- 앞에서 rowspan으로 넘어온 2셀은 제거 -->
+      <td></td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <th>11:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>12:00</th>
+      <td></td>
+      <td rowspan="2">Web</td>
+      <td rowspan="2">Python</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>13:00</th>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>14:00</th>
+      <td></td>
+      <td>DS</td>
+      <td></td>
+      <td>목</td>
+    </tr>
+    </tbody>
+   </table>
+</body>
+</html>

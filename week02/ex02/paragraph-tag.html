@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>제목 태그 + 단락 실습</title>
+</head>
+<body>
+  <!-- 제목 태그 특징
+    - 두껍게 표시
+    - HTML에 적용된 내부 스타일이 바로 적용되는 것
+    - 1이 가장 큼, 대부분 쓸 땐 6까지 가는 일은 없고, 1~3정도에서 사용
+    -->
+  <h1>제목 태그 실습 1</h1>
+  <h2>제목 태그 실습 2</h2>
+  <h3>제목 태그 실습 3</h3>
+  <h4>제목 태그 실습 4</h4>
+  <h5>제목 태그 실습 5</h5>
+  <h6>제목 태그 실습 6</h6> <!-- 단락 태그 보다도 작아짐 -->
+
+  <!-- p태그: 단락, 엔터를 친 것처럼 구분됨 -->
+   <!-- br태그: 단독 태그, 줄바꿈 문자(line break), shift + enter와 동일 -->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Aliquid minima corporis nam perferendis culpa eum in odio cupiditate commodi, veniam facere voluptatem ducimus recusandae inventore. Ea a sed blanditiis totam.</p>
+  <!-- 옛날에는 이렇게 내용 없는 p태그도 단락으로 가정해서 띄워졌었는데, 이젠 내용이 없으면 공간 차지 안 함 -->
+  <p></p>
+
+  <!-- &amp;: 앰퍼센트 표시, 현재는 브라우저가 많이 똑똑해져서 지원함 -->
+  <!-- &nbsp;: 스페이스바 표시, 브라우저에서는 스페이스바 1개를 초과해서 스페이스바를 넣으면 1개로 인정함, 따라서 &nbsp;가 필요 -->
+  <h2> YOU & &nbsp;&nbsp;&nbsp;I &amp; </h2>
+
+  <!-- pre태그: 공백과 줄바꿈을 유지함, 폰트 스타일이 바뀜 -->
+  <pre>가    나    다 라</pre>
+
+  <!-- hr태그: 수평선 -->
+  <hr />
+  
+  
+  <h3>태그를 설명하는 자료 구성</h3>
+  <p> <!-- &lt;, &gt;: 꺽쇄 표시 -->
+    제목태그 &lt;h1&gt;~&lt;h6&gt;: 제목 태그, 단락보다 크고, 숫자가 작을수록 더 큼<br/>
+    스페이스 공간을 2개 이상 연속해서 만들려면 &amp;nbsp; 사용
+  </p>
+
+  <!-- Lorem + tab: 채워 넣는 가상의 텍스트 (이미지에도 블랜딩 이미지 기능이 있음, 코파일럿이 지원해주는 기능?)  -->
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatum vitae amet aperiam saepe dolore et expedita? Impedit nihil iste possimus non quisquam totam quasi reprehenderit, dicta explicabo esse cumque.
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error doloremque quasi nihil officia similique obcaecati placeat cupiditate autem dignissimos, deserunt labore, assumenda ratione facere. Sunt quis a maiores iure sequi?
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, eaque minus reprehenderit exercitationem voluptate suscipit! Vitae odit ipsum praesentium, eum quibusdam velit est cupiditate necessitatibus, nostrum, enim optio sed ex.
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html> <!-- : HTML5 문서임을 선언 -->
+<html lang="en">
+
+<head> <!-- : head 태그, 문서의 정보를 담음 -->
+  <!-- 메타태그를 통해 문서의 설명을 담음, 화면에 보여지는 것은 아님 -->
+  <meta charset="UTF-8">
+  <!-- 뷰포트 설정은 반응형 설정 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>첫 번째 HTML</title>
+</head>
+
+<!-- 스타일 태그, CSS 태그 작성 가능 -->
+ <style>
+  body {
+    background-color: aliceblue;
+    color: blue;
+  }
+ </style>
+
+ <!-- 외부 CSS 파일 연결 -->
+ <link rel="stylesheet" href="style.css"> 
+
+ <!-- 스크립트 태그
+  - JavaScript 코드 작성 가능
+  - 바디 태그 안에 위치할 수도 있음, 단독으로는 존재 불가 -->
+<script>
+  alert("Hello, Script!"); // 먼저 실행 후 body 렌더링(그려짐) => 첫줄부터 순차적으로 실행한다는 것
+</script>
+
+<body>
+  <h1>첫 번째 HTML 문서</h1>
+  <p>HTML은 웹 페이지를 만들기 위한 언어입니다.</p>
+</body>
+
+</html> <!-- : 닫는 태그 -->
